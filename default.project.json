@@ -3,44 +3,23 @@
   "tree": {
     "$className": "DataModel",
     "ReplicatedStorage": {
-      "Modules": {
-        "$path": "src/ReplicatedStorage/Modules"
-      },
-      "Libraries": {
-        "$path": "src/ReplicatedStorage/Libraries"
-      },
-      "Assets": {
-        "$path": "src/ReplicatedStorage/Assets"
-      }
+      "$path": "src/ReplicatedStorage"
     },
     "ServerScriptService": {
-      "Events": {
-        "$className": "Folder"
-      },
-      "PlayerData": {
-        "$className": "Folder"
-      },
-      "Utilities": {
-        "$className": "Folder",
-        "NexusVRCharacterModelLoader": {
-          "$path": "src/ServerScriptService/Utilities/NexusVRCharacterModelLoader"
-        }
-      }
+      "$path": "src/ServerScriptService"
     },
     "ServerStorage": {
-      "Modules": {
-        "$path": "src/ServerStorage/Modules"
-      },
-      "Libraries": {
-        "$path": "src/serverStorage/Libraries"
-      }
+      "$path": "src/ServerStorage"
     },
     "StarterPlayer": {
+      "$className": "StarterPlayer",
       "StarterPlayerScripts": {
-        "$path": "src/StarterPlayer/StarterPlayerScripts"
+        "$className": "StarterPlayerScripts",
+        "$path": "src/StarterPlayerScripts"
       },
       "StarterCharacterScripts": {
-        "$path": "src/StarterPlayer/StarterCharacterScripts"
+        "$className": "StarterCharacterScripts",
+        "$path": "src/StarterCharacterScripts"
       }
     },
     "Workspace": {

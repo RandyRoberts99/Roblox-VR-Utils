@@ -52,6 +52,7 @@ function NexusVRCharacterModel:Load()
     --Rename and move the script to ReplicatedStorage.
     script.Name = "NexusVRCharacterModel"
     script:WaitForChild("NexusVRCore").Parent = ReplicatedStorage
+    -- selene: allow(script.Parent)
     script.Parent = ReplicatedStorage
 
     --Set up the client scripts.
