@@ -2,27 +2,44 @@
   "name": "VR Utils",
   "tree": {
     "$className": "DataModel",
-
     "ReplicatedStorage": {
-      "Shared": {
-        "$path": "src/shared"
+      "Modules": {
+        "$path": "src/ReplicatedStorage/Modules"
+      },
+      "Libraries": {
+        "$path": "src/ReplicatedStorage/Libraries"
+      },
+      "Assets": {
+        "$path": "src/ReplicatedStorage/Assets"
       }
     },
-
     "ServerScriptService": {
-      "Server": {
-        "$path": "src/server"
+      "Events": {
+        "$path": "src/ServerScriptService/Events"
+      },
+      "PlayerData": {
+        "$path": "src/ServerScriptService/PlayerData"
+      },
+      "Utilities": {
+        "$path": "src/ServerScriptService/Utilities"
       }
     },
-
+    "ServerStorage": {
+      "Modules": {
+        "$path": "src/ServerStorage/Modules"
+      },
+      "Libraries": {
+        "$path": "src/serverStorage/Libraries"
+      }
+    },
     "StarterPlayer": {
       "StarterPlayerScripts": {
-        "Client": {
-          "$path": "src/client"
-        }
+        "$path": "src/StarterPlayer/StarterPlayerScripts"
+      },
+      "StarterCharacterScripts": {
+        "$path": "src/StarterPlayer/StarterCharacterScripts"
       }
     },
-
     "Workspace": {
       "$properties": {
         "FilteringEnabled": true
