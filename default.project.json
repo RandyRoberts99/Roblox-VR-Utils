@@ -15,13 +15,16 @@
     },
     "ServerScriptService": {
       "Events": {
-        "$path": "src/ServerScriptService/Events"
+        "$className": "Folder"
       },
       "PlayerData": {
-        "$path": "src/ServerScriptService/PlayerData"
+        "$className": "Folder"
       },
       "Utilities": {
-        "$path": "src/ServerScriptService/Utilities"
+        "$className": "Folder",
+        "NexusVRCharacterModelLoader": {
+          "$path": "src/ServerScriptService/Utilities/NexusVRCharacterModelLoader"
+        }
       }
     },
     "ServerStorage": {
